@@ -1,0 +1,33 @@
+.sidebar-root{
+    padding: 10px;
+    width: 20%;
+    min-width: 18rem;
+}
+.sidebar-company{
+    color: #B8AFA4;
+    font-weight: 800;
+}
+.sidebar-flex{
+    display: flex;
+    gap: 10px;
+}
+.sidebar-selected-menu-item , .sidebar-menu-item{
+    color: #114036;
+    background-color: rgb(1, 1, 1,0.05);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    cursor: pointer;
+}
+.sidebar-selected-menu-item{
+    background-color: #16AF8E;
+    border: 4px solid #167E62;
+    color: #fff;
+}
+.sidebar-value{
+    font-size: 1.8rem;
+}

@@ -1,0 +1,115 @@
+.table-root{
+    background-color: #fff;
+    padding: 2rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+.table-heading{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #191919;
+}
+.table-content{
+    padding: 1rem 0rem;
+    background-color: #FAFAFA;
+}
+.table-content-desc{
+color: #191919;
+font-size: 1.2rem;
+font-weight: 600;
+}
+.table-content-desc-small{
+font-size: 0.8rem;
+font-weight: 400;
+margin-top: 0.4rem;
+margin-left: 0.1rem;
+}
+.table-search{
+    background-color: #EEEEEE;
+    border: 0.5px solid gray ;
+    border-radius: 0.4em;
+    margin-top: 1rem;
+    padding: 0.4rem;
+    min-width: 14rem;
+}
+.table{
+    background-color: #fff;
+    width: 100%;
+    margin-top: 1rem;
+    border: 1.5px solid #eeeeee;
+    border-radius: 1rem;
+    padding: 20px 0px;
+   
+}
+.table-row{
+    text-align: center;
+   
+  
+  
+}
+.table-profile{
+    height: 50px;
+    width: 50px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+}
+.table-emploee-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 10px 0px;
+  
+}
+td{
+    width: 14rem;
+}
+.secondary{
+font-size: 13px;
+    font-weight: 500;
+    color: gray;
+    margin-top: 4px;
+}
+.primary{
+    font-size: 14px;
+    font-weight: 600;
+}
+.approve{
+    background-color: #16AF8E;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    border: 1px solid #167E62;
+    font-size: 0.8rem;
+    min-width: 8rem;
+    cursor: pointer;
+}
+.flex-saperate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 0px;
+}
+.flex-pagination{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.next,  .back{
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.current-page, .page{
+    background-color: rgb(1,1,1,0.05);
+    padding: 5px 10px;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color:rgb(1, 1, 1, 0.5)
+}
+.current-page{
+background-color: #323232;
+color: #fff;
+}

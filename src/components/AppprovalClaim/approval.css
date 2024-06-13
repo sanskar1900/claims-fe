@@ -1,0 +1,67 @@
+.chain-root{
+    padding: 25px;
+    width: 100%;
+}
+.verified{
+    width: 25px;
+    height: 25px;
+    color: #16AF8E;
+    margin-top: 0.4rem;
+
+}
+.chain-flex{
+    display: flex;
+    gap: 0.8rem;
+   
+}
+.chain-claim{
+    font-size: 22px;
+    font-weight: 600;
+    width: 100%;
+}
+.chain-desc{
+    font-size: 14px;
+    color: #1f1f1f;
+    margin-top: 4px;
+}
+.number{
+    border: 3px solid #AFAFAF;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFAFAF;
+    font-weight: 800;
+}
+.saperate{
+    height: 30px;
+    width: 3px;
+    background-color: #AFAFAF;
+    margin-left: 15px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.chain{
+    margin-top: 1rem;
+}
+.approvals{
+    display: flex;
+   gap: 1rem;
+   font-size: 14px;
+   color: #1e1e1e;
+  
+}
+.approval-name{
+    margin-top:4px;
+}
+.approval-profile-details{
+    margin-top: 0.7rem;
+    border-radius: 0.6rem;
+    border: 1px solid #AFAFAF;
+    padding: 10px;
+    background-color: rgb(1,1,1,0.05);
+
+}

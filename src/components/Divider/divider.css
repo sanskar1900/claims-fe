@@ -1,0 +1,9 @@
+.divider-full, .divider{
+    height: 1px;
+    margin-top: 1.2rem;
+
+}
+.divider-full{
+    width: 100%;
+    
+}

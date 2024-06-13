@@ -1,0 +1,7 @@
+.tablescreen-root{
+padding: 10px;
+background-color: #FAF4EA;
+min-height: calc(100vh - 20px);
+display: flex;
+gap: 1rem;
+}

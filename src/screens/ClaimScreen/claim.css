@@ -1,0 +1,70 @@
+.claim-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    background-color: #FAFAFA;
+    border-radius: 1rem;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 1.5rem 0px;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom:  1px  solid #eeeeee;
+    
+}
+.claim-root{
+    background-color: #fff;
+    width: 100%;
+    border-radius: 1rem;
+    color: #191919;
+   
+}
+.go-back{
+    position: absolute;
+    top: 50%;
+    transform: translate(-0%,-50%);
+    left: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    color: gray;
+}
+.claims-menu{
+    display: flex;
+    gap: 1.2rem;
+    padding: 1.5rem 1rem;
+    background-color: #FAFAFA;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.menu-content,.menu-content-selected{
+   
+    padding: 10px;
+    cursor: pointer;
+    color: #757575;
+}
+.menu-content-selected{
+ background-color: #fff;
+box-shadow: 0 1px 12px rgba(0, 0, 0, .16);
+border-radius: 0.5rem;
+color: #191919;
+
+
+}
+.padding-select{
+    padding: 10px;
+   
+}
+.highlight{
+    height: 3px;
+width: 100%;
+
+background-color: #16AF8E;
+border-radius: 48px 48px 0px 0px;
+}
